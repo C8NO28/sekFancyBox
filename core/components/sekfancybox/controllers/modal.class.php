@@ -84,7 +84,7 @@ class sekFancyBoxModalController extends sekFancyBoxController {
                 }
                 break;
             case 'media':
-                $group = ($group > '') ? '" data-fancybox-group="'.$group.'"' : '';
+                $group = ($group > '') ? ' data-fancybox-group="'.$group.'"' : '';
                 $output = '<a class="'.$modalclass.'"'.$group.' href="'.$link.'"'.$title.'>'.$linktext.'</a>';
                 break;
             case 'document':
